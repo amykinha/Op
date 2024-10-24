@@ -1,7 +1,11 @@
-atualiza tudo 0
+:root {
+    --text-color: #000000;
+    --card-front-color: #4EADAF;
+    --card-back-color: #00F4BF;
+}
 
 body {
-    background-color: bisque;
+    background-color: #152069;
 }
 
 #container{
@@ -9,7 +13,7 @@ body {
 }
 
 footer {
-    background-color: black;
+    background-color: #140951;
     color: white;
     bottom:0;
     position:fixed;
@@ -26,19 +30,22 @@ footer p{
 
 .cartao{
     margin: 1rem 1rem;
-    background-color: rgb(127, 214, 255);
+    background-color:#4EADAF;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33%-6rem);
 }
 
 .cartao__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
 }
 
 .cartao__conteudo h3 {
-    background-color: rgb(83, 71, 255);
+    background-color: #377A98;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.8rem;
     position: absolute;
