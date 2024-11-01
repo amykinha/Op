@@ -54,3 +54,36 @@ footer p{
     font-size: 2vw;
 }
 
+
+
+body{
+    background-color: #2a9df4;
+   font-family: fredoka;
+}
+
+#container{
+    display: flex;
+}
+
+.cartao{
+    margin: 1rem 1rem;
+    background-color: #1167b1;
+    height: 25rem;
+    flex-grow: 1;
+    flex-basis: calc(33% -6rem);
+}
+
+footer{
+    background-color: #03254c;
+    color: #d0efff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
